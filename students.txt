@@ -1,0 +1,21 @@
+
+Name = [I[Ikushal
+Rollno = 3
+Age = 19
+DOB = 20620410-4-10
+Fee = 40000
+Name = sthunko
+Rollno = 7
+Age = 19
+DOB = 2062-10-10
+Fee = 50000
+Name = k
+Rollno = 0
+Age = 0
+DOB = 0-0-0
+Fee = -921449856
+Name = [I[Ifd
+Rollno = 0
+Age = 0
+DOB = 0-0-0
+Fee = -809895920

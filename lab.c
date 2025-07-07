@@ -1,19 +1,6 @@
 #include<stdio.h>
 int main(){
-    int n, i;
-    printf("\nEnter the number of elements: ");
-    scanf("%d",&n);
-
-    int arr[n];
-    printf("\nEnter %d elements: ",n);
-    for( i = 0; i < n; ++i){
-        printf("\nElement %d",i+1);
-        scanf("%d",&arr[i]);
-    }
-
-    printf("\nThe elements in the array are: ");
-    for( i = 0; i < n; ++i ){
-        printf("%d\t",*(arr+i));
-    }
+    int a=3, b=4;
+    printf("\nThe mul of %d and %d = %d",a,b,a*b);
     return 0;
 }

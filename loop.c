@@ -1,10 +1,13 @@
-#include <stdio.h>
+#include<stdio.h>
 int main(){
-    int n=1;
-
-    while(n<=10){
-        printf("%d\t",n);
-        n++;
-    }
-    return 0;
+    int i=0, j=0;
+    for(i=1; i<=5; i++){
+       for(j=i; j<=5; j++){
+           printf("%d",j);
+       }
+       printf("\n");
+   } 
+   return 0;
 }
+
+

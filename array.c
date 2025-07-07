@@ -1,20 +1,21 @@
-//add 5 float numbers provided by user
-
 #include<stdio.h>
-int main(){
-    int i=0;
-    float a[5],sum=0;
-    for(i=0; i<5; ++i){
-    printf("\nEnter number: ");
-    scanf("%f", &a[i]);
-    }
+int main() {
+    int a,b,c;
+    printf("\nEnter the value of a: ");
+    scanf("%d",&a); 
+    printf("\nEnter the value of b: ");
+    scanf("%d",&b);
+    printf("\nEnter the value of c: ");
+    scanf("%d",&c);
 
-    for(i=0; i<5; ++i){
-        sum += a[i];
-        printf("\n%f",sum);
+    if (a>b && a > c){
+       printf("\nA is the greatest");
+    }
+    else if(b > a && b > c){
+          printf("\nB is the greatest");
+    }
+    else{
+       printf("\nC is the greatest");
     }
     return 0;
-}
-        
-        
-  
+}    

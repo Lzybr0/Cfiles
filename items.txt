@@ -1,0 +1,3 @@
+
+Id = 1 	NAME = momo 	PRICE = 223 	QUANTITY= 2 	AMOUNT= 446
+Id = 2 	NAME = chow 	PRICE = 400 	QUANTITY= 1 	AMOUNT= 400
